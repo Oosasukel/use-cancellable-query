@@ -39,6 +39,8 @@ export const useCancellableMutation = <
     onError: (error) => {
       if (!signal.aborted && options?.onError) {
         options.onError(error);
+      } else {
+        throw error;
       }
     },
   });

@@ -33,6 +33,8 @@ export const useCancellableQuery = <
     onError: (error) => {
       if (!signal.aborted && options?.onError) {
         options.onError(error);
+      } else {
+        throw error;
       }
     },
   });
