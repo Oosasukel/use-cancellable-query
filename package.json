@@ -1,0 +1,37 @@
+{
+  "name": "use-cancellable-query",
+  "version": "1.0.0",
+  "description": "Hooks made based on the useQuery and useMutation of the apollo client, with an extra function to cancel requests.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "use",
+    "cancellable",
+    "query",
+    "mutation"
+  ],
+  "author": "Rodrigo Gonçalves do Nascimento",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oosasukel/use-cancellable-query.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Oosasukel/use-cancellable-query/issues"
+  },
+  "homepage": "https://github.com/Oosasukel/use-cancellable-query#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.6",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.3.19",
+    "react": "^17.0.2"
+  },
+  "peerDependencies": {
+    "graphql": "^15.5.0"
+  }
+}
