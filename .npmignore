@@ -1,0 +1,7 @@
+/node_modules
+/.github
+/lib
+tsconfig.json
+yarn-error.log
+yarn.lock
+index.ts

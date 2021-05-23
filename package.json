@@ -1,6 +1,6 @@
 {
   "name": "use-cancellable-query",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Hooks made based on the useQuery and useMutation of the apollo client, with an extra function to cancel requests.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
